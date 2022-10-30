@@ -7,16 +7,13 @@ h1 {
   width: 100%;
   height: 55vh;
   display: flex;
-  flex-flow: column;
   align-items: center;
   justify-content: center;
 }
 .wrapper {
   width: 50%;
-  height: 50%;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
 }
 .wrapper-top,
 .wrapper-bottom {
@@ -36,8 +33,8 @@ h1 {
  }
 #cube,
 .cube {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background-color: rgb(183, 255, 0);
 }
 .cube {
